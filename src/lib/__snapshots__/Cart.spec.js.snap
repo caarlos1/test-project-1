@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart checkout() deve retornar um objeto com o total e uma lista de itens. 1`] = `
+{
+  "formatted": "R$1,963.92",
+  "items": [
+    {
+      "product": {
+        "price": 35388,
+        "title": "Tênis Adidas",
+      },
+      "quantity": 2,
+    },
+    {
+      "product": {
+        "price": 41872,
+        "title": "Tênis Nike",
+      },
+      "quantity": 3,
+    },
+  ],
+  "total": 196392,
+}
+`;
+
+exports[`Cart summary() deve retornar um objeto com o total e uma lista de itens. 1`] = `
+{
+  "formatted": "R$3,025.56",
+  "items": [
+    {
+      "product": {
+        "price": 35388,
+        "title": "Tênis Adidas",
+      },
+      "quantity": 5,
+    },
+    {
+      "product": {
+        "price": 41872,
+        "title": "Tênis Nike",
+      },
+      "quantity": 3,
+    },
+  ],
+  "total": 302556,
+}
+`;
